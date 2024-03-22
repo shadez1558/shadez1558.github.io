@@ -15,7 +15,7 @@ li {
 
 li a {
 	display: block;
-	color: white;
+	color: navy;
 	text-align: center;
 	padding: 14px;
 	text-decoration: none;
@@ -24,11 +24,33 @@ li a {
 }
 
 li a:hover {
-	color: navy;
+	color: blue;
 }
 
 .active {
-	color: navy;
+	color: blue;
 	text-decoration: underline;
-	text-decoration-color: navy;
+	text-decoration-color: blue;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 48px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 24px;
+}
+
+a {
+	color: white;
+	text-align: center;
+	font-size: 48px;
+}
+
+a:hover {
+	color: lightgray;
 }
